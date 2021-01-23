@@ -21,12 +21,12 @@ foo: bar # this is an inline comment
 ```
 ### Structure
 
-YAML documents are primarily composed of key-value pairs. Key value pairs supported are: **strings, floats, booleans, arrays and integers**. Strings can be enclosed in single, double or no quotes at all. YAML recognizes unquoted numerals as integers or floating point.
+YAML documents are primarily composed of key-value pairs. Key value pairs supported are: **strings, floats, booleans, arrays, integers and dictionaries**. Strings can be enclosed in single, double or no quotes at all. YAML recognizes unquoted numerals as integers or floating point. YAML supports the nesting of key-values and the mixing of data types.
 
 ```yaml
 --- 
 
-# Key-value pairs
+# Key-value pairs with different data types
 
 mystring: "This is a string example." # string
 myunquotedstring: this is an unquoted string example. #string
@@ -40,7 +40,18 @@ singers:
   - Prince
   - Elvis
   
+# dictionary example 
 
+mydictionary:
+  mynestedarray: three
+    array-item1: 1
+    array-item2: 2
+    array-item3: three
+    array-item4:
+      count:5
+      location:"somewhere in the world"
+    array-item5: 5
+    
 
 ```
 
