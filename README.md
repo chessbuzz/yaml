@@ -6,8 +6,8 @@ YAML Ain't Markup Language ([YAML](http://yaml.org) is a serialization language 
 
 All YAML files start with three dashes 
 
-```yaml
----```
+```
+--- ```
 
 Comments begin with a pound sign. They can appear in line. 
 
