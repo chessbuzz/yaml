@@ -9,5 +9,16 @@ All YAML files start with three dashes
 ```yaml
 ---```
 
+Comments begin with a pound sign. They can appear in line. 
+
+```yaml
+---
+# this is a YAML comment
+foo: bar # this is an inline comment
+```
+
 ## Resources
 [YAML Lint](http://www.yamllint.com/)
+
+
+
