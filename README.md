@@ -40,6 +40,10 @@ singers:
   - Prince
   - Elvis
   
+# arrays cane be specified on a single line
+
+items: [1,2,3,4]
+  
 # dictionary example 
 
 mydictionary:
@@ -51,13 +55,19 @@ mydictionary:
       count:5
       location:"somewhere in the world"
     array-item5: 5
-    
+
+# dictionaries can be specified on a single line
+dict:{"one", "two", "three"}
+
 
 ```
 
 
 ## Resources
 [YAML Lint](http://www.yamllint.com/)
+[JSON to YAML Converter](https://www.json2yaml.com/)
+[YAML Tutorial](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)
+
 
 
 
