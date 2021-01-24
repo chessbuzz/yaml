@@ -64,8 +64,8 @@ dict:{"one", "two", "three"}
 
 
 ## Resources
-[YAML Lint](http://www.yamllint.com/)
-[JSON to YAML Converter](https://www.json2yaml.com/)
+* [YAML Lint](http://www.yamllint.com/)
+* [JSON to YAML Converter](https://www.json2yaml.com/)
 [YAML Tutorial](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)
 
 
